@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\URL;
-// httpsに書き換えるおまじない
+// httpsに書き換えるおまじないだよ
 
 class AppServiceProvider extends ServiceProvider
 {
