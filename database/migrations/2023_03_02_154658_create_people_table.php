@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('people', function (Blueprint $table) {
          $table->bigIncrements('id');
              $table->string('person_name'); //追加
-             $table->integer('item_number'); //追加
+             $table->integer('person_number'); //追加
             //  $table->integer('item_amount'); //追加
              $table->datetime('published'); //追加
              $table->timestamps();
